@@ -11,6 +11,7 @@ import datetime as dt
 import email.utils
 import html
 import json
+import os
 import shutil
 import subprocess
 from pathlib import Path
@@ -99,6 +100,8 @@ def build_feed():
 
 def push():
     remote = sh("git", "remote", "get-url", "origin").stdout.strip()
+    if os.environ.get("GITHUB_TOKEN") and os.environ.get("GITHUB_REPOSITORY"):
+        remote = f"https://x-access-token:{os.environ['GITHUB_TOKEN']}@github.com/{os.environ['GITHUB_REPOSITORY']}.git"
     shutil.rmtree(SITE / ".git", ignore_errors=True)
     sh("git", "init", "-q", "-b", "gh-pages", cwd=SITE)
     sh("git", "add", "-A", cwd=SITE)
