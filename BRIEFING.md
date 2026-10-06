@@ -44,28 +44,35 @@ TTS 속도는 약 **분당 460자**다. 아래 분량을 지킨다.
 
 원고를 `out/$TODAY.txt` 에 저장한다.
 
-## 4. 분량 확인 → 음성 생성
+## 4. 분량 확인
 
 ```bash
 python -c "print(len(open('out/$TODAY.txt',encoding='utf-8').read()))"   # 12,500 ~ 15,000 이어야 함
-python scripts/tts.py out/$TODAY.txt out/$TODAY.mp3
 ```
 
-결과 길이가 **26~34분**을 벗어나면 원고를 늘리거나 줄여서 다시 생성한다.
-TTS가 네트워크 오류로 계속 실패하면 원인을 최종 답변에 적고 종료한다.
+범위를 벗어나면 원고를 늘리거나 줄인다 (분당 약 460자 → 27~33분).
+음성 생성은 이 환경에서 하지 않는다 (프록시가 Edge TTS 웹소켓을 막는다). 다음 단계에서 GitHub Actions가 처리한다.
 
-## 5. 게시
+## 5. 원고 올리기 (음성 생성·게시는 GitHub Actions가 자동 수행)
 
 ```bash
-python scripts/publish.py --mp3 out/$TODAY.mp3 --script out/$TODAY.txt \
-  --title "M월 D일 (요일) 모닝 브리핑" \
-  --summary "오늘의 핵심: 첫째 ... / 둘째 ... / 셋째 ..."
+mkdir -p episodes-src
+cp out/$TODAY.txt episodes-src/$TODAY.txt
+cat > episodes-src/$TODAY.json <<'EOF2'
+{"summary": "오늘의 핵심: 첫째 ... / 둘째 ... / 셋째 ... (섹션별 주요 키워드 2~3줄)"}
+EOF2
+git checkout -b claude/briefing-$TODAY
+git add episodes-src
+git commit -m "Briefing $TODAY"
+git push -u origin claude/briefing-$TODAY
 ```
 
-- `--title` 예: `10월 7일 (수) 모닝 브리핑`
-- `--summary`: 핵심 3가지 + 섹션별 주요 키워드를 2~3줄로.
-- main 브랜치에는 아무것도 커밋하지 않는다 (`out/`, `site/` 는 gitignore 대상).
+- push 하면 `.github/workflows/tts-publish.yml` 이 자동 실행되어 MP3 생성 → gh-pages 게시까지 한다.
+- main 브랜치에는 직접 커밋하지 않는다. `claude/` 브랜치에만 push 한다.
+- summary 의 따옴표 등 JSON 이 깨지지 않게 주의한다.
+- push 가 거부되면 에러 메시지 전문을 최종 답변에 그대로 적는다.
 
 ## 6. 최종 답변
 
-에피소드 길이(분), 원고 글자 수, 핵심 3가지 제목, 게시 성공 여부를 짧게 보고한다.
+원고 글자 수, 핵심 3가지 제목, push 성공 여부(브랜치 이름)를 짧게 보고한다.
+에피소드 길이와 게시 결과는 GitHub Actions 실행 결과에서 확인된다고 덧붙인다.
