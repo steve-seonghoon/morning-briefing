@@ -1,6 +1,6 @@
 """원고(txt)를 Edge TTS로 읽어 하나의 MP3로 만든다.
 
-사용법: python scripts/tts.py <원고.txt> <출력.mp3> [--voice ko-KR-SunHiNeural] [--rate +5%]
+사용법: python scripts/tts.py <원고.txt> <출력.mp3> [--voice ko-KR-SunHiNeural] [--rate +15%]
 """
 import argparse
 import asyncio
@@ -57,7 +57,7 @@ async def main() -> None:
     p.add_argument("script")
     p.add_argument("out")
     p.add_argument("--voice", default="ko-KR-SunHiNeural")
-    p.add_argument("--rate", default="+5%")
+    p.add_argument("--rate", default="+15%")
     a = p.parse_args()
 
     text = clean(open(a.script, encoding="utf-8").read())
