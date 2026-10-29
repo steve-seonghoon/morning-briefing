@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>모닝 브리핑</title>
+    <link>https://steve-seonghoon.github.io/morning-briefing/</link>
+    <language>ko</language>
+    <description>매일 아침 30분, 경제·증시, AI·테크, UX/UI 디자인, 트렌드를 정리해 드리는 개인 맞춤 브리핑</description>
+    <itunes:author>Morning Briefing Bot</itunes:author>
+    <itunes:image href="https://steve-seonghoon.github.io/morning-briefing/cover.png"/>
+    <itunes:category text="News"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:block>Yes</itunes:block>
+    <item>
+      <title>10월 30일 (금) 모닝 브리핑</title>
+      <description>오늘의 핵심: 첫째 국회 운영위 청와대 국감 파행, 수도권 공공주택 7만 6천700가구 후보지 발표, 이태원 참사 4주기 / 둘째 알파벳 12.6% 급락과 나스닥 1.38% 하락, 아마존 클라우드 39% 성장, 삼성전자 영업이익 107조 원·배당 30조 원 / 셋째 앤트로픽 기업공개 신청, 구글 제미나이 4 카본 제한 공개, 피그마 코드 레이어 크레딧 과금 예고</description>
+      <pubDate>Fri, 30 Oct 2026 07:00:00 +0900</pubDate>
+      <guid isPermaLink="false">morning-briefing-2026-10-30</guid>
+      <enclosure url="https://steve-seonghoon.github.io/morning-briefing/episodes/2026-10-30.mp3" length="9829152" type="audio/mpeg"/>
+      <itunes:duration>27:18</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>10월 29일 (목) 모닝 브리핑</title>
+      <description>오늘의 핵심: 첫째 코스피 6.63퍼센트 급등, 6000선 회복 - SK하이닉스 3분기 영업이익 83조 원 / 둘째 앤트로픽 상장 신청서 공개와 AI 투자 수익성 논쟁, 알파벳 급락 마이크로소프트 상승 / 셋째 연준 금리 동결 속 인상 의견 2명, 호르무즈 긴장과 유가 상승. 그 밖에 이태원 참사 4주기, 가상자산 과세 유예 논의, 이스라엘 총선 교착, 피그마 에이전트 정식 출시.</description>
+      <pubDate>Thu, 29 Oct 2026 07:00:00 +0900</pubDate>
+      <guid isPermaLink="false">morning-briefing-2026-10-29</guid>
+      <enclosure url="https://steve-seonghoon.github.io/morning-briefing/episodes/2026-10-29.mp3" length="9993600" type="audio/mpeg"/>
+      <itunes:duration>27:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>10월 28일 (수) 모닝 브리핑</title>
+      <description>오늘의 핵심: 첫째 민주당 조희대 대법원장 국정조사 추진, 김건희 구속 연장 / 둘째 앤트로픽 상장 신청과 반도체 랠리, 코스피 3퍼센트 급등과 3분기 GDP 1.0퍼센트 / 셋째 피그마 스펙스·코드 레이어와 생성형 유아이 트렌드. 이스라엘 총선, 연준 금리 결정 앞두고.</description>
+      <pubDate>Wed, 28 Oct 2026 07:00:00 +0900</pubDate>
+      <guid isPermaLink="false">morning-briefing-2026-10-28</guid>
+      <enclosure url="https://steve-seonghoon.github.io/morning-briefing/episodes/2026-10-28.mp3" length="10044000" type="audio/mpeg"/>
+      <itunes:duration>27:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>10월 27일 (화) 모닝 브리핑</title>
+      <description>오늘의 핵심: 첫째 법사위 국감에서 오세훈 시장 항소심 무죄와 대법원장 탄핵론을 둘러싼 여야 공방, 특별감찰관 10년 만에 부활 / 둘째 앤스로픽 나스닥 상장 신청에 미국 증시 반등, 코스피 5,500선 이탈, 연준 28일 금리 결정 / 셋째 이스라엘 총선과 이란 중재, 룰라 브라질 4선, 피그마 에이전트와 에이아이 디자인 도구 변화</description>
+      <pubDate>Tue, 27 Oct 2026 07:00:00 +0900</pubDate>
+      <guid isPermaLink="false">morning-briefing-2026-10-27</guid>
+      <enclosure url="https://steve-seonghoon.github.io/morning-briefing/episodes/2026-10-27.mp3" length="9813168" type="audio/mpeg"/>
+      <itunes:duration>27:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>10월 26일 (월) 모닝 브리핑</title>
+      <description>오늘의 핵심: 첫째 김정은 위원장 중국 단둥 방문과 군사분계선 긴장, 한국은행 기준금리 3.00퍼센트 동결 / 둘째 미국-이란 긴장에 유가 급등, 뉴욕증시 하락, 코스피 장중 4퍼센트 급락 후 반등, 이번 주 SK하이닉스·삼성전자 실적과 FOMC / 셋째 앤트로픽 클로드 듀엣 등 에이전트형 AI, 피그마 에이전트와 코드 레이어, 애플·구글 리퀴드 글래스 가독성</description>
+      <pubDate>Mon, 26 Oct 2026 07:00:00 +0900</pubDate>
+      <guid isPermaLink="false">morning-briefing-2026-10-26</guid>
+      <enclosure url="https://steve-seonghoon.github.io/morning-briefing/episodes/2026-10-26.mp3" length="9946800" type="audio/mpeg"/>
+      <itunes:duration>27:37</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>10월 23일 (금) 모닝 브리핑</title>
+      <description>오늘의 핵심: 첫째 북한 김여정, 이달 중 대남 확성기 방송 재개 예고, 한강버스 공익신고자 오세훈 시장 고소 / 둘째 나스닥 2.6퍼센트 급락, 코스피 3.52퍼센트 하락, 한은 기준금리 3.00퍼센트 동결, 환율 1,324원 / 셋째 오픈에이아이 에이전트 감시 장치 약화 사례, 피그마 스펙스와 코드 레이어 공개. 러시아 키이우 집속탄 공습, 이란 공격 준비 보도.</description>
+      <pubDate>Fri, 23 Oct 2026 07:00:00 +0900</pubDate>
+      <guid isPermaLink="false">morning-briefing-2026-10-23</guid>
+      <enclosure url="https://steve-seonghoon.github.io/morning-briefing/episodes/2026-10-23.mp3" length="9938160" type="audio/mpeg"/>
+      <itunes:duration>27:36</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>10월 22일 (목) 모닝 브리핑</title>
+      <description>오늘의 핵심: 첫째 국정감사 막바지, 특별감찰관 후보 보고서 채택·병역특례 논란 / 둘째 코스피 3.3퍼센트 급등 5,735, 원달러 1,325원 2년 만의 최저, 브렌트유 110달러 안팎 / 셋째 앤스로픽 상장 서류 공개, 오픈에이아이 구글 클라우드 입점, 피그마 엠씨피 파트너 20곳 확대.</description>
+      <pubDate>Thu, 22 Oct 2026 07:00:00 +0900</pubDate>
+      <guid isPermaLink="false">morning-briefing-2026-10-22</guid>
+      <enclosure url="https://steve-seonghoon.github.io/morning-briefing/episodes/2026-10-22.mp3" length="10048608" type="audio/mpeg"/>
+      <itunes:duration>27:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>10월 21일 (수) 모닝 브리핑</title>
+      <description>오늘의 핵심: 첫째 국정감사 후반전, 검찰 수사권·대통령 재판·북한 위협 공방과 5대 은행 정보유출 / 둘째 코스피 3.73% 급락(5,552.74), 인공지능 수익성 우려와 미국 장기금리 5% 돌파, 원달러 1,328원 / 셋째 오픈에이아이·앤트로픽 자금 조달, 중국의 엔비디아 칩 대량 주문, 피그마 컨피그 인디아 에이전트 기능</description>
+      <pubDate>Wed, 21 Oct 2026 07:00:00 +0900</pubDate>
+      <guid isPermaLink="false">morning-briefing-2026-10-21</guid>
+      <enclosure url="https://steve-seonghoon.github.io/morning-briefing/episodes/2026-10-21.mp3" length="9848304" type="audio/mpeg"/>
+      <itunes:duration>27:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>10월 20일 (화) 모닝 브리핑</title>
+      <description>오늘의 핵심: 첫째 이 대통령 취임 500일 간담회, 전작권 조기 환수와 개혁 속도 조절 언급, 북 김여정 대남 확성기 재개 검토 / 둘째 미국 에이아이·반도체주 급락 뒤 반등, 코스피 5768 마감, 원달러 1330.3원 2년 만에 최저 / 셋째 오픈에이아이 에이전트 사고 4건 공개, 앤트로픽 신입 채용 감소 연구, 피그마 스펙스와 에이아이 크레딧</description>
+      <pubDate>Tue, 20 Oct 2026 07:00:00 +0900</pubDate>
+      <guid isPermaLink="false">morning-briefing-2026-10-20</guid>
+      <enclosure url="https://steve-seonghoon.github.io/morning-briefing/episodes/2026-10-20.mp3" length="10015776" type="audio/mpeg"/>
+      <itunes:duration>27:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>10월 19일 (월) 모닝 브리핑</title>
+      <description>오늘의 핵심: 첫째 국무회의 공개 여부 논란과 국정감사, 호르무즈 유조선 기뢰 폭발·러시아 제재 면제 / 둘째 뉴욕 증시 AI 반도체주 급락, 코스피 반등과 반대매매 증가, 브렌트유 109달러 / 셋째 원전 재가동 대출과 AI 에이전트 차단 움직임, 피그마·어도비 AI 도구 변화</description>
+      <pubDate>Mon, 19 Oct 2026 07:00:00 +0900</pubDate>
+      <guid isPermaLink="false">morning-briefing-2026-10-19</guid>
+      <enclosure url="https://steve-seonghoon.github.io/morning-briefing/episodes/2026-10-19.mp3" length="10071216" type="audio/mpeg"/>
+      <itunes:duration>27:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
